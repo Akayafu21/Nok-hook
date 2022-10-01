@@ -8,7 +8,7 @@ const submitbtn = document.getElementById('btnpost');
 //post btn
 submitbtn.addEventListener('click',()=>{
     var uri_link = "https://drive.google.com/drive/folders/1xeVYUJALWLxLVezp_bkDRHtDF4WepCip?usp=sharing";
-    // localStorage[localStorage.length-1] = document.getElementById("name").value;
+    localStorage[localStorage.length-1] = document.getElementById("name").value;
     liff.sendMessages(  [
       {
           "type": "flex",
@@ -22,7 +22,7 @@ submitbtn.addEventListener('click',()=>{
               "contents": [
                 {
                   "type": "text",
-                  "text": "โพสต์งาน"+"localStorage[localStorage.length-1]",
+                  "text": "โพสต์งาน"+localStorage[localStorage.length-1],
                   "align": "center",
                   "contents": []
                 }
