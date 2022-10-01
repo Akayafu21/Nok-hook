@@ -6,7 +6,7 @@ liff.init({liffId:'1657437132-LVyE7X7o'});
 
 //post btn
 submitbtn.addEventListener('click',()=>{
-    var uri_link = "https://drive.google.com/drive/folders/1xeVYUJALWLxLVezp_bkDRHtDF4WepCip?usp=sharing";
+    var uri_link = "https://illustrious-kringle-861a75.netlify.app/send.html";
     localStorage[localStorage.length-1] = document.getElementById("name").value;
     liff.sendMessages(  [
       {
