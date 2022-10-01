@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../font/Kanit-Regular.woff);
+}
+
+body{
+    font-family: Kanit;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background-color: rgb(148, 92, 55);
+    display: flex;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.top>div{
+    color: #fff;
+    margin: 20px;
+    width: 80px;
+}
+
+.top>h2{
+    color: aliceblue;
+    margin: auto 2rem;
+}   
+
+.top>div>a>img {
+    width: 70%;
+    padding: 10px;
+    background-color:burlywood;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.button {
+    margin: 35px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.button>a>div>img {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.button>a>h2{
+    margin: auto 12px;
+}
+
+.assbut{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    border-radius: 20px;
+}
+
+.assbut > div{
+    width: 80px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.assbut> h2{
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.forassign{
+    margin: 20px 10px;
+}
+
+.forassign > fieldset {
+    border-radius: 20px;
+}
+
+.postbut{
+    font-family: Kanit;
+    color: #fff;
+    background-color: rgb(167, 89, 58);
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+}
+
+.inputfile {
+    font-family: Kanit;
+    margin: 5px auto;
+}
+
+.loopbut{
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 15px;
+    margin-bottom: 2rem ;
+}
+
+.loopbut>a>h2{
+    margin: auto;
+}
+
+.loopbut>a>div>img{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.input{
+    width: 70%;
+}
