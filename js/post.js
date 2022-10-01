@@ -21,7 +21,7 @@ submitbtn.addEventListener('click',()=>{
               "contents": [
                 {
                   "type": "text",
-                  "text": "โพสต์งาน"+localStorage[localStorage.length-1],
+                  "text": "โพสต์งาน"+document.getElementById("name").value,
                   "align": "center",
                   "contents": []
                 }
