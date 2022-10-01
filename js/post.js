@@ -11,7 +11,7 @@ submitbtn.addEventListener('click',()=>{
     alert('please input assignment name');
   }else{
     var uri_link = "https://drive.google.com/drive/folders/1xeVYUJALWLxLVezp_bkDRHtDF4WepCip?usp=sharing";
-    localStorage[localStorage.length] = document.getElementById("name").value;
+    localStorage[localStorage.length-1] = document.getElementById("name").value;
     liff.sendMessages(flex);
    
       alert('Message sent');
